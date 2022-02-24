@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8"> 
+		
+		<title>Before your appointment</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->
+		
+	 <link rel="stylesheet" type="text/css" href="../CSS/massages.css">
+	 <script src="https://kit.fontawesome.com/6f231cb134.js" crossorigin="anonymous"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+	
+	
+	</head>
+	
+    <body>
+	   <div id="containerSky">
+	
+		   <div id="headerSky">
+		      <img  class="logo" src="../images/logos1.jpg" alt="logo" > 
+		      <h2 id="specialHeading">Before your appointment</h2>
+	       </div>
+		   
+		   <div id="content1Sky">
+	          <img class="massageofback"  src="../images/clinic.jpg" alt="clinic"> 
+	       </div>
+		   
+		   
+		  
+	      <div  id="content2Sky">
+		     <h3>What you should be aware of before your appointment</h3>
+	         <ul>
+		    	<li>If this is your first massage ever and you feel unsure or anxious about the whole process,
+	            just give a call to your therapist and don’t be afraid to ask them anything!</li>
+				<li>Arrive at least 15 minutes before your appointment - for your first appointment, a medical history needs to be filled.
+	            Therapist needs to know about any on going issues, pregnancy, surgeries, illness, allergies and so on.</li>
+	            <li> Be as receptive and open to the massage process as possible.</li>
+	            <li> Drink water, specially AFTER your appointment</li>
+	            <li> Wear comfortable clothes - to help the flow of your cirulation and to make the undressing process easier</li>
+	            <li> Book your appointment on the day, when you are not in a rush</li>  
+	        </ul> 
+			
+			<button id="button">Check the date</button>
+                <p id="demo"></p>
+	      </div >
+		  
+	     <div id="content3Sky">
+		    <h3>What you should avoid before getting massage</h3>
+	        <ul>
+	          <li>Do not Sunbathe</li>
+	          <li>Hot shower prior to your massage is not recommended. Showering with warm water a few hours before your appointment is not only fine—it’s encouraged </li>
+	          <li>Dont get  massage if you feel ill</li>
+	          <li>Cannot massage immediately after strenuous exercise </li>
+			  <li>Do not drink alcohol!
+	       </ul>
+	    </div>
+		
+		<img class="appointment" src="../images/appointment.jpg" alt="picture of diary">
+		
+		 <div id="footerSky">
+			    <p class="Fparagraph1">For more information about Massage Therapy, please <a href="../HTML/contactForm.html">contact us</a> or drop us an <a href="../HTML/contactForm.html"> email.</a> We will be happy to answer your questions, if we can.</p>
+				<p class="Fparagraph2">Copyright &copy; New to Massage</p>
+				
+				<!--Contact links-->
+				<div class="tooltip">
+				   <span class="tooltiptext">Homepage</span>
+				   <a href="../HTML/massageHome.html"> <i class="fas fa-home fa-2x"></i></a>
+				</div>
+				
+				<div class="tooltip">
+				   <span class="tooltiptext">Contact us</span>
+				   <a href="../HTML/contactForm.html"><i class="far fa-envelope fa-2x"></i></a>
+				</div>
+				
+				<div class="tooltip">
+				   <span class="tooltiptext">Facebook</span>
+				   <a href="http://facebook.com"><img class="facebook" src="../images/facebook.png" alt="facebookIcon" style="width:35px"></a>
+				</div>			
+		     </div>
+			 
+	</div>
+	
+	<script>
+         document.getElementById("button").addEventListener("click", displayDate);	
+         function displayDate(){
+         document.getElementById("demo").innerHTML = Date();
+         }	
+      </script>
+	
+  </body>
+  
+</html>
+	

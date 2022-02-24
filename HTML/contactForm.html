@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8"> 
+		
+		<title>Contact form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		
+		<script>
+           function myFunction()
+           {
+            alert("Thank you for contacting us!");
+            }	
+        </script>			
+
+		
+	    <style>
+	 
+body {font-family: Verdana, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.container {
+  width: 100%;
+  margin:0 auto;
+  border-radius: 5px;
+  background-color:#bbbb77;
+  padding: 20px;
+}
+
+
+h3{
+  font-family:'Cinzel',Verdana, sans-serif;
+  text-align:center;
+  }
+  
+     </style>
+	 
+	</head>
+	  
+       <body>
+	     <h3>Contact form</h3>
+	      <div class="container">
+		     <form method="post" action="mailto:v.revajova@gmail.com">
+			 
+			    <label>First name:</label>
+				<input type="text" id="fname" name="firstname">
+				
+				<label>Last name:</label>
+				<input type="text" id="lname" name="laststname">
+				
+				<label>Your Questions or comments:</label><br> 	
+                <textarea rows="10" cols="50">Please enter your comments here</textarea><br>
+
+                <input type="submit" value="send" onclick="myFunction()"> <br>
+           			  
+			</form>
+         </div>
+      </body>
+</html>	  

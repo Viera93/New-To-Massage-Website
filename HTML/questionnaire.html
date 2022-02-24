@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+ <html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8"> 
+		
+		<title>Questionnaire Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		 
+		
+		<script src="javaScript.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+		
+		
+	    <style>
+	   body,p{
+	       font-family:Verdana, sans-serif;
+           line-height:2em;
+			}
+	    div{
+	       width: 100%;
+	       margin:0 auto;
+	       padding:10px;
+	       background: #d6d6c2;	
+	       border: solid 1px grey;
+           }
+	    h3{
+		   font-family:'Cinzel',Verdana, sans-serif;
+           text-align:center;
+           }		  	   
+        </style>
+		
+		</head>
+		
+		   <body>
+		   
+		   
+		      <div id="container">
+			  <h3>Is Lymphatic Drainage massage right for me?</h3>
+			  
+			  <img src="../images/candles.jpeg" class="w3-opacity" alt="candles" style="width:100%">
+			  
+			  <p><b>Please read the questions carefully and mark your answer</b></p>
+			  
+			     <form method="post" action= "mailto:v.revajova@gmail.com">
+				 
+				    <fieldset>
+					
+					   <legend><b>Is Lymphatic Drainage massage right for me?</b></legend>
+					   
+					   <!--Radio input type-->
+					   
+					    
+						  
+						     <label>Would you like to improve elasticity of your skin and reduce your cellulite?</label></br>
+			                
+							 <input type="radio" name="question1" value="A1"><label>Yes</label></br>
+                      
+							 <input type="radio" name="question1" value="A2"><label>No</label></br>
+							 
+							 <label>Do you feel tired with no energy and would you like to improve your immune system? </label></br>
+			                 
+							 <input type="radio" name="question2" value="A1"><label>Yes</label></br>
+                             
+							 <input type="radio" name="question2" value="A2"><label>No</label></br>
+					  
+                             <label>Would you like to boost your metabolic system and loose weight? </label></br>
+			                 
+							 <input type="radio" name="question3" value="A1"><label>Yes</label></br>
+							 
+                             <input type="radio" name="question3" value="A2"><label>No</label></br>	
+					  
+                             <label>Are you constantly feeling sick and fighting with illness and infections?</label></br>
+			                 
+							 <input type="radio" name="question4" value="A1"><label>Yes</label></br>
+                             
+							 <input type="radio" name="question4" value="A2"><label>No</label></br>
+					  
+					         <!--Multiple option drop down-->
+                             <label>Do you suffer from:</label></br>
+				             <select multiple name = "question5">
+				             <option value = "A3"><label>anxiety and deppression</label></option>
+					         <option value = "A3"><label>trombosis</label></option>
+					         <option value = "A3"><label>fluid retention (oedema)</label></option>
+					         <option value = "A3"><label>migrains</label></option>
+					         </select></br>      
+					
+						  
+						  <button type="submit" id="submit" onclick="submitAnswers()">Submit</button>
+                          <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+					   
+					  </fieldset>
+					  
+					</form>
+
+                  </div>					
+					
+				<div id="answer">Your result will show up here!</div>	
+   
+		</body>
+			
+  </html>

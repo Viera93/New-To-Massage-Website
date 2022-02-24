@@ -1,0 +1,433 @@
+/*********Main structure - Massages**********/
+#container{
+	width: 960px;
+	margin:0 auto;
+	background:#bbbb77;
+}
+#header{
+	background:#666633;
+	border:1px solid grey;
+	margin:5px;
+	height:100px;
+}
+#content1{
+	background:#d6d6c2;	
+	border:1px solid grey;
+	margin:5px;
+}
+#content2{
+	float: left;
+	width:49%;
+	background:#d6d6c2;	
+	border:1px solid grey;
+	margin-left:5px;
+	margin-bottom:5px;	
+}
+#content3{
+	float:right;
+	width:49%;
+    background:#d6d6c2;	
+	border:1px solid grey;
+	margin-right:5px;
+	margin-bottom:5px; 
+}
+#footer{
+	clear:both;
+	background:#666633;
+	border:1px solid grey;	
+	margin:5px;
+}
+
+/***Benefits; Contraindications and Benefits of massage - Main structure**/
+#containerSky{
+	width: 960px;
+	margin:0 auto;
+	background:#bbbb77;
+}
+
+#headerSky{
+	background:#666633;
+	height:100px;
+}
+	
+#content1Sky{
+	background:white;
+}
+#content2Sky{
+	float: left;
+	width:50%;
+	background:#d6d6c2;	
+	margin-right:2px;
+}
+#content3Sky{
+	float:right;
+	width:50%;
+    background:#d6d6c2;	
+	margin-left:2px;
+}
+#footerSky{
+	clear:both;
+	background:#666633;
+}
+
+ 
+
+/********* Font styles *********/
+h1, h2{
+    font-family:'Cinzel',Verdana, sans-serif;
+    color:white;
+    padding-left:20px;
+    text-align:center;
+}
+
+h3{
+	font-family:'Cinzel',Verdana, sans-serif;
+    padding-left:20px;
+	text-align:center;
+	
+}
+
+p{
+  font-family:Verdana, sans-serif;
+  line-height:2em;
+  padding-left:20px;
+  padding-right:10px;
+}  
+li{
+   font-family:Verdana, sans-serif;
+   line-height:2em;
+   padding-right:10px;
+}
+
+a{
+	color:#c98524;
+	font-family:Verdana, sans-serif;
+	text-decoration: none;
+	line-height:2em;
+	
+}
+a:hover {
+	text-decoration:underline;
+}
+
+/*****Secial tags******/
+
+#specialHeading{
+   padding-top:20px;
+   font-size:25px;
+}
+#button{
+	margin-left:30px;
+}
+ 
+ 
+/********Images - massages*********/
+
+.logo{
+	height:100px;
+	float:left;
+	width:300px;
+}
+.lymphaticSystem{
+   width:50%;	
+   float:left;
+   margin-right:50px;
+   margin-left:50px;
+   border:1px solid grey;	
+}
+.lymphaticMassage{
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:20px;
+}
+.deepTissue{
+	padding-bottom:20px;
+	padding-left:30px;
+}	
+.swedishMassage{
+	margin-bottom:40px;
+	margin-left:30px;
+	margin-right:30px;
+}
+.swedishMassage3{
+	margin-bottom:30px;
+	margin-top:12px;
+	margin-left:30px;
+}
+
+.facebook{
+	padding-left:15px;
+}
+
+/******Images Before appointment*****/
+.massageofback{
+    padding-top:5px;
+    height:150px; 
+    width:100%;	
+}
+	
+.appointment{
+	width:50%;
+	float:left;
+	height:350px;
+}
+
+
+/*****Images Benefits of Massage*****/
+.sky{
+    height:150px;
+    width:100%;
+	padding-bottom:5px;
+	padding-top:10px;
+	opacity:0.5;
+} 	
+.stones{
+	height:300px;
+	width:100%;
+	opacity:0.8;
+}
+
+/****Images Contraindications of Massage***/
+.trees{
+	height:150px;
+	width:100%;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.sick{
+	height:250px;
+	width:100%;
+}
+.noSign{
+	height:350px;
+	width:50%;
+	float:left;
+}
+	
+	
+/*************Footer******/
+.tooltip{
+    position:relative;
+    display:inline-block;
+}
+.tooltiptext{
+	font-family:'Cinzel',Verdana, sans-serif;	
+}
+.tooltip .tooltiptext{
+	visibility: hidden;
+	width:120px;
+	bottom:100%;
+	left:50%;
+	margin-left: -60px;
+	background:#c98524;
+	text-align:center;
+	padding:5px;
+	border-radius:6px;
+	position:absolute;
+	z-index:1;
+
+}
+.tooltip:hover .tooltiptext{
+	visibility:visible;
+}
+.Fparagraph1{
+	color:white;
+}
+.Fparagraph2{
+	color:white;
+	float:right;
+	font-family:'Cinzel',Verdana, sans-serif;
+	padding-right:100px;
+	padding-bottom:30px;
+}
+
+
+/*********Font awesome*********/	
+.fa-exclamation{
+	color:#ff1a1a;
+	text-shadow:2px 2px 2px grey;
+}
+.fa-check{
+	color:green;
+	text-shadow:2px 2px 2px grey;	
+}	
+.fa-home{
+	color:white;
+	padding-left:100px;
+	padding-bottom:10px;
+}
+.fa-envelope{
+	color:white;
+	padding-left:30px;
+}
+
+
+/*******Media Query 1*********/
+
+/* for 980px or less ******/
+@media screen and (max-width: 980px) {
+
+	#container {
+		width: 100%;
+	}
+	#content1 {
+		width: auto;
+		float: none;
+	}
+	#content2 {
+		width: 49%;
+		float:left;
+	
+	}
+	#container3 {
+		width: 49%;
+		float: right;
+	}
+	#SpecialHeading{
+		font-size:25px;
+	}
+}
+
+
+/* for 750px or less */
+@media screen and (max-width: 750px) {
+    
+	#content2 {
+		width: auto;
+		float: none;
+	}
+	#content3{
+		width: auto;
+		float: none;
+	}
+    .Fparagraph2{
+		display:none;
+	}	
+}
+
+/* for 600px or less */
+@media screen and (max-width: 600px){
+	#specialHeading{
+		font-size:15px;
+	}
+}
+
+ 
+/*******Media Query 2*********/
+
+/* for 980px or less ******/
+@media screen and (max-width: 980px) {
+	
+	#containerSky {
+		width: 100%;
+	}
+	#content1Sky {
+		width: auto;
+		float: none;
+	}
+	#content2Sky {
+		width: 49%;
+		float:left;
+	}
+	#container3Sky {
+		width: 49%;
+		float: right;
+	}
+	.noSign {
+		width:100%;
+	}
+	.appointment{
+		width:100%;
+	}
+}
+#specialHeading{
+	font-size:25px;
+}
+
+/* for 750px or less */
+@media screen and (max-width: 750px) {
+    
+	#content2Sky {
+		width: auto;
+		float: none;
+	}
+	#content3Sky{
+		width: auto;
+		float: none;
+	}	
+    .Fparagraph2{
+		display:none;
+	}		
+}
+
+/* for 600px or less */
+@media screen and (max-width: 600px){
+	#specialHeading{
+		font-size:15px;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	
+	#headerSky {
+		height: auto;
+	}
+	h2, h3{
+		font-size:10px;
+	}
+	
+}
+	    
+
+
+
+
+ 
+
+  
+
+
+
+ 
+
+ 
+	 
+	 
+		 
+ 
+
+
+		
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 	    
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 	    
+
+
+
+
+ 
+
+ 
