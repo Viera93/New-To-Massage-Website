@@ -6,11 +6,11 @@ The website is built using **HTML5, CSS** and **JavaScript**.
 ## Layout of the website
 
 ### Hope page
-![Home Page](../layout/home.png)
+![Home Page](layout/home.png)
 
 ### Before Appointment
 ![Before Appointment](layout/beforeApp.png)
-![Before Appointment2](../layout/beforeApp2.png)
+![Before Appointment2](layout/beforeApp2.png)
 
 ### Benefits of Massage
 ![Benefits1](layout/benefits.png)
