@@ -13,7 +13,8 @@ The website is built using **HTML5, CSS** and **JavaScript**.
 ![Before Appointment2](layout/beforeApp2.png)
 
 ### Benefits of Massage
-![Benefits1](layout/benefits.png)
+![Benefits1](layout/benefits1.png)
+![Benefits2](layout/benefits2.png)
 
 ### Contraindications
 ![Contraidications](layout/contraindications.png)
@@ -37,7 +38,7 @@ The website is built using **HTML5, CSS** and **JavaScript**.
 
 
 ## Contact Form
-![Contact Form](layout/contactForm.png)
+![Contact Form](layout/form.png)
 
 
  
