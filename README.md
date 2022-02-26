@@ -16,7 +16,7 @@ The website is built using **HTML5, CSS** and **JavaScript**.
 ![Benefits1](layout/benefits.png)
 
 ### Contraindications
-![Contraidications](layout/constraindications.png)
+![Contraidications](layout/contraindications.png)
 
 
 ## Types of Massages
